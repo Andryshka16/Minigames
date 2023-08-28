@@ -1,0 +1,54 @@
+
+body {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.btn {
+    height: 80px;
+    width: 80px;
+    margin: 3px;
+    color: rgba(0, 0, 0, 0);
+    background: rgba(0, 255, 220,0.7);
+    border: 1px solid coral;
+    border-radius: 7px;
+    cursor: pointer;
+    font: 55px Calibri;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+.btn2 {
+    margin-top: 15px;
+    height: 50px;
+    width: 170px;
+    color: black;
+    background: rgba(0, 255, 220,0.7);
+    border: 3px solid coral;
+    border-radius: 7px;
+    cursor: pointer;
+    font: 15px Calibri;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+.btn:hover {
+    transform: scale(1.1)
+}
+
+.btn2:hover {
+    transform: scale(1.15)
+}
+
+#game {
+    padding: 0;
+    width: 270px;
+    height: 261px;
+    background: rgba(0, 255, 0, 0.4);
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    border: 2px solid coral;
+    border-radius: 10px
+}

@@ -1,0 +1,75 @@
+body {
+    font-size: 30px;
+    margin: auto;
+}
+
+#field {
+    padding: 0;
+    width: 270px;
+    height: 270px;
+    background: rgba(0, 255, 0, 0.4);
+    margin: auto;
+    text-align: center;
+    border: 2px solid coral;
+    border-radius: 10px
+}
+
+.player {
+    top: 140px;
+    position: absolute;
+    height: 60px;
+    width: 10px;
+    border: 1px solid orange;
+}
+
+#player1 {
+    background-color: blue;
+}
+
+#player2 {
+    margin-left: 260px;
+    background-color: red;
+}
+
+#ball {
+    background: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 160px;
+    margin-left: 130px;
+    height: 15px;
+    width: 15px;
+    border: 1px solid goldenrod;
+}
+
+button {
+    margin: 15px auto auto;
+    height: 40px;
+    width: 120px;
+    color: black;
+    background: rgba(0, 255, 220,0.7);
+    border: 3px solid coral;
+    border-radius: 7px;
+    cursor: pointer;
+    font: 15px Calibri;
+    font-weight: bold;
+    transition: 200ms;
+}
+button:hover {
+    transform: scale(1.2);
+}
+
+#buttons {
+    margin: auto;
+    text-align: center;
+}
+
+h3  {
+    margin: auto;
+    text-align: center;
+    right: 0;
+    left: 0;
+    color: orange;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
