@@ -1,3 +1,5 @@
+// Andrejs Lapciks al24101 FINAL TEST
+
 // Handle form submission
 $('#feedback-form').on('submit', (event) => {
 	const rating = $('#rating').val()
