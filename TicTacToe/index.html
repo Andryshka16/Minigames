@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Final Project</title>
+		<link rel="stylesheet" href="styles.css" />
+		<style></style>
+	</head>
+	<body>
+		<header>
+			<h1>Tic Tac Toe Game</h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="#rules" class="smooth-scroll">Rules</a></li>
+				<li><a href="#game" class="smooth-scroll">Game</a></li>
+				<li><a href="#form-section" class="smooth-scroll">Contact</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<section id="rules">
+				<div class="rules-container">
+					<img src="image.png" alt="Tic Tac Toe Illustration" />
+					<h3>Game Rules</h3>
+					<p>
+						Tic Tac Toe is a simple yet strategic game for two players, X and O. Players
+						take turns marking spaces in a 3×3 grid. The first player to align three
+						marks in a row—horizontally, vertically, or diagonally—wins the game.
+					</p>
+				</div>
+			</section>
+
+			<section id="game"></section>
+
+			<section id="leaderboard">
+				<h3>Top Players</h3>
+				<table class="styled-table">
+					<thead>
+						<tr>
+							<th>Rank</th>
+							<th>Player Name</th>
+							<th>Score</th>
+						</tr>
+					</thead>
+					<tbody id="leaderboard-body">
+						<!-- Dynamic content will be inserted here -->
+					</tbody>
+				</table>
+			</section>
+
+			<section id="form-section">
+				<h3>Feedback Form</h3>
+				<form
+					action="https://www.w3schools.com/action_page.php"
+					method="post"
+					id="feedback-form"
+				>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" required />
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required />
+					<label for="rating">Rate the Game (1-5):</label>
+					<input type="number" id="rating" name="rating" required />
+					<button type="submit">Submit</button>
+				</form>
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; 2025 Tic Tac Toe Game</p>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+		<script type="module" src="functions.js"></script>
+	</body>
+</html>
